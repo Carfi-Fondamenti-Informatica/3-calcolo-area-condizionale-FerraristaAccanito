@@ -7,8 +7,9 @@ int main() {
    int opzione;
    
    cin >> a >> b;
+   cin >> opzione;
    
-   switch(opzione) {
+   switch (opzione) {
       case 0 :
          cout << (a*b)/2;
          break;
@@ -19,7 +20,7 @@ int main() {
          cout << a*b;
          break;
       default :
-         cout << "l'opzione selezionata non è valida";
+         cout << "opzione selezionata non valida";
    }
    return 0;
 }
