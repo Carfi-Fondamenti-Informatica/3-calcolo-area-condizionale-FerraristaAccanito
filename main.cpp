@@ -20,7 +20,7 @@ int main() {
          cout << a*b;
          break;
       default :
-         cout << "opzione selezionata non valida";
+         cout << "opzione non valida";
    }
    return 0;
 }
